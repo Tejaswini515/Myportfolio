@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
-import App from './App';
+import Portfolio from '../src/containers/Portfolio';
 
 const app = (
   <BrowserRouter>
-    <App />
+    <Portfolio />
   </BrowserRouter>
 );
 ReactDOM.render(app, document.getElementById('root'));
