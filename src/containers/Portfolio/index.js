@@ -5,6 +5,7 @@ import NavBar from '../../components/NavBar';
 import AboutMe from '../../components/AboutMe';
 import Projects from '../../components/Projects';
 import bgImg from '../../assets/images/bg3.jpeg';
+// import Main from '../Main';
 
 const myStyles = {
   backgroundImage: `url(${bgImg})`,

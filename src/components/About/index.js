@@ -33,7 +33,7 @@ import java from '../../assets/images/java.png';
 import cpp from '../../assets/images/cpp.png';
 import GraphQL from '../../assets/images/GraphQL.png';
 
-const AboutMe = props => {
+const About = props => {
   const { classes } = props;
   const skillsStyle = {
     placement: {
@@ -91,4 +91,4 @@ const AboutMe = props => {
     </div>;
 };
 
-export default withStyles(profilePageStyle)(AboutMe);
+export default withStyles(profilePageStyle)(About);
