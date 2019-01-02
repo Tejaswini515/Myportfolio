@@ -73,17 +73,17 @@ const data = [
     srcLink: 'https://github.com/Tejaswini515/Myportfolio.git',
   },
   {
-    title: 'Rest API',
+    title: 'Video Chat',
     description:
-      'Demonstration of REST API using Express JS',
+      'Web-based application for online teaching purpose which supports different devices',
     technologies: (
       <Fragment>
       <Node size="40" title="NodeJS" css="color: #215732;" />
       <Js size="40" title="JavaScript" css="color: #f7df1e;" />
       <img
-        alt="mongo"
-        title="mongo"
-        src={mongo}
+        alt="webrtc"
+        title="webrtc"
+        src={webrtc}
         style={{ height: '40px', width: '40px' }}
       />
       </Fragment>
@@ -93,7 +93,7 @@ const data = [
   {
     title: '3D Clothing Store',
     description:
-      '3D online clothing store for enhancing the user experience and designed the 3D clothes for human model using blender',
+      'Clothing store to enhance user experience and designed 3D clothes for human model',
     technologies: (
       <Fragment>
         <ReactLogo size="40" title="ReactJS" css="color: #00d8ff;" />
@@ -111,7 +111,7 @@ const data = [
   {
     title: 'Blood Bank Web App',
     description:
-      'Web Application which provides a communication platform between blood donors and receivers',
+      'Communication platform between blood donors and receivers',
     technologies: (
       <Fragment>
         <img
