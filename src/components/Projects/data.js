@@ -40,7 +40,7 @@ const data = [
   {
     title: '3D Human Brain MRI',
     description:
-      'Web Application for visualization of human brain MRI in 3D',
+      'Web Application for visualization of human brain MRI in 3D with the given 2D dataset.',
     technologies: (
       <Fragment>
         <Js size="40" title="JavaScript" css="color: #f7df1e;" />
@@ -59,6 +59,18 @@ const data = [
       </Fragment>
     ),
     srcLink: 'https://github.com/Tejaswini515/3D-Brain-MRI.git',
+  },
+  {
+    title: 'MyPortfolio',
+    description:
+      'Portfolio showing my work experience and skill set using react and material UI.',
+    technologies: (
+      <Fragment>
+        <Js size="40" title="JavaScript" css="color: #f7df1e;" />
+        <ReactLogo size="40" title="ReactJS" css="color: #00d8ff;" />
+      </Fragment>
+    ),
+    srcLink: 'https://github.com/Tejaswini515/Myportfolio.git',
   },
   {
     title: 'Rest API',
@@ -95,18 +107,6 @@ const data = [
       </Fragment>
     ),
     srcLink: 'https://github.com/Tejaswini515/ClothingStore3D.git',
-  },
-  {
-    title: 'MyPortfolio',
-    description:
-      'portfolio using react and material UI. Filling something to fit the size as other cards. Adding extra because still there is place',
-    technologies: (
-      <Fragment>
-        <Js size="40" title="JavaScript" css="color: #f7df1e;" />
-        <ReactLogo size="40" title="ReactJS" css="color: #00d8ff;" />
-      </Fragment>
-    ),
-    srcLink: 'https://github.com/Tejaswini515/Myportfolio.git',
   },
   {
     title: 'Blood Bank Web App',

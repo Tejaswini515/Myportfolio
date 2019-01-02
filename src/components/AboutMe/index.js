@@ -65,8 +65,8 @@ const AboutMe = props => {
                 <Button justIcon link className={classes.margin5} href="https://www.linkedin.com/in/tejaswinikosunam/" target="_blank">
                     <i className={'fab fa-linkedin'} />
                   </Button>
-                <Tooltip title="mailto : tejaswini.kosunam@usm.edu">
-                  <Button justIcon link className={classes.margin5} href="mailto:tejaswini.kosunam@usm.edu">
+                <Tooltip title="mailto : tejaswini.kosunam@gmail.com">
+                  <Button justIcon link className={classes.margin5} href="mailto:tejaswini.kosunam@gmail.com">
                     <i className={'fa fa-envelope'} />
                   </Button>
                 </Tooltip> 
@@ -81,14 +81,27 @@ const AboutMe = props => {
           </GridContainer>
           <div className={classes.description}>
             <p>
-              My passion as an engineer lies in developing easy to use,
-              user-friendly web applications with Open Source technologies
-              dealing with real world problems.{' '}
+              {' '}
             </p>
           </div>
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
               <NavPills alignCenter color="primary" tabs={[{ tabButton: 'Work', tabIcon: Work, tabContent: <GridContainer justify="center">
+                        <GridItem xs={12} sm={12} md={12}>
+                        <Card>
+                          <CardHeader color="info">
+                            Front End Developer
+                          </CardHeader>
+                          <CardBody>
+                            <h4 style={{ color: '#9c27b0', fontFamily: `"Roboto Slab", "Times New Roman", serif` }}>
+                              Cognizant Technology Solutions
+                            </h4>
+                            <Divider />
+                            <p>Sep 2018 -  Present</p>
+                            <p>Phoenix, AZ</p>
+                          </CardBody>
+                        </Card>
+                      </GridItem>
                         <GridItem xs={12} sm={12} md={12}>
                           <Card>
                             <CardHeader color="info">
