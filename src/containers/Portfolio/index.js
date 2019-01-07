@@ -5,12 +5,11 @@ import NavBar from '../../components/NavBar';
 import AboutMe from '../../components/AboutMe';
 import Projects from '../../components/Projects';
 import bgImg from '../../assets/images/bg3.jpeg';
-// import Main from '../Main';
 
 const myStyles = {
   backgroundImage: `url(${bgImg})`,
-  width:'200 px',
-  backgroundSize: 'cover',
+  backgroundSize: '100% 100%'
+
 }
 class Portfolio extends Component {
   render() {

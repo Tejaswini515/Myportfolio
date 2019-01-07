@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { Html5 } from 'styled-icons/fa-brands/Html5';
 import { Js } from 'styled-icons/fa-brands/Js';
 import { Node } from 'styled-icons/fa-brands/Node';
 import { ReactLogo } from 'styled-icons/fa-brands/ReactLogo';

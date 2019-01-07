@@ -49,10 +49,9 @@ const AboutMe = props => {
     classes.imgFluid
   );
   return <div className={classNames(classes.main, classes.mainRaised)}>
-      <div>
-        <div className={classes.container}>
-          <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={6}>
+        <div className={classes.container} style={{justifyContent:'center'}}>
+          <GridContainer justify='center'>
+            <GridItem>
               <div className={classes.profile}>
                 <div>
                   <img src={image} alt="..." className={imageClasses} />
@@ -221,7 +220,6 @@ const AboutMe = props => {
             </GridItem>
           </GridContainer>
         </div>
-      </div>
     </div>;
 };
 

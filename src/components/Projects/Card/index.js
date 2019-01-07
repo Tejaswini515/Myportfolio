@@ -11,8 +11,10 @@ import Typography from '@material-ui/core/Typography';
 const styles = theme => ({
   card: {
     maxWidth: 345,
-    marginTop: 50,
-    marginBottom: 20
+    marginTop: 90,
+    marginBottom: 90,
+    marginLeft:40,
+    marginRight: 40
   },
   controls: {
     display: 'flex',
