@@ -11,7 +11,6 @@ import java from '../../assets/images/java.png';
 import bootstrap from '../../assets/images/bootstrap.png';
 import jest from '../../assets/images/jest.png';
 import webrtc from '../../assets/images/webrtc.png';
-import mongo from '../../assets/images/mongo.png';
 
 const data = [
   {
@@ -88,7 +87,7 @@ const data = [
       />
       </Fragment>
     ),
-    srcLink: 'https://github.com/Tejaswini515/NodeRestAPI.git',
+    srcLink: 'https://github.com/Tejaswini515/VideoChat.git',
   },
   {
     title: '3D Clothing Store',

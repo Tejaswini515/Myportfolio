@@ -32,6 +32,7 @@ import mysql from '../../assets/images/mysql.png';
 import java from '../../assets/images/java.png';
 import cpp from '../../assets/images/cpp.png';
 import GraphQL from '../../assets/images/GraphQL.png';
+import jest from '../../assets/images/jest.png';
 
 const AboutMe = props => {
   const { classes } = props;
@@ -66,7 +67,7 @@ const AboutMe = props => {
                     <i className={'fab fa-linkedin'} />
                   </Button>
                 <Tooltip title="mailto : tejaswini.kosunam@gmail.com">
-                  <Button justIcon link className={classes.margin5} href="mailto:tejaswini.kosunam@gmail.com">
+                  <Button justIcon link className={classes.margin5} href="mailto:tejaswinikosunam@gmail.com">
                     <i className={'fa fa-envelope'} />
                   </Button>
                 </Tooltip> 
@@ -196,6 +197,7 @@ const AboutMe = props => {
                                 <img alt="redux" title="redux" src={redux} style={{ height: '40px', width: '40px' }} />
                                 <img alt="redux-saga" title="redux-saga" src={saga} style={{ height: '40px', width: '40px' }} />
                                 <img alt="react-router" title="react-router" src={router} style={{ height: '40px', width: '40px' }} />
+                                <img alt="jest" title="jest" src={jest} style={{ height: '40px', width: '40px' }} />
                               </div>
                             </CardBody>
                           </Card>
